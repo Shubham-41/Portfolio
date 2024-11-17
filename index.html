@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-bar" id="Home">
+          <li>
+            <a href="#"
+              ><img
+                src="https://i.pinimg.com/736x/2c/16/23/2c1623387b7f99238bc0412d9b867b55.jpg"
+                alt="Logo"
+                class="nav-logo"
+            /></a>
+          </li>
+
+          <input type="checkbox" name="#" id="check" />
+
+          <span class="menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <label for="check" class="close-menu"
+              ><i class="ri-close-line"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="ri-menu-line"></i
+          ></label>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="intro">
+        <div class="intro-container">
+          <p class="intro-text">Hi, my name is</p>
+          <h1 class="intro-title">Shubham Lipane.</h1>
+          <h2 class="intro-subtitle">I build things for the web.</h2>
+          <p class="intro-info">
+            I'm a software engineer keen to design, build, solve, and
+            democratize technology for the next billion internet users one
+            commit at a time. Currently building an application for tracking
+            stock rates.
+          </p>
+          <a href="#" class="intro-btn animated-button">Get In Touch</a>
+        </div>
+
+        <div class="intro-img">
+          <img src="./Shubham.jpg" alt="" />
+        </div>
+      </section>
+
+      <section class="about-me" id="About">
+        <div class="about-me-info">
+          <p class="about-me-text">
+            I'm Shubham, a recent graduate in Computer Science from Sinhgad
+            College of Engineering, Pune, where I developed a strong foundation
+            in front-end web development and honed my skills in competitive
+            programming. Born and raised in Ahmednagar, I've always been drawn
+            to the creative and problem-solving aspects of technology. Over the
+            years, I've contributed to several open-source projects and
+            continually seek to expand my knowledge and skills in the field.
+          </p>
+          <p class="about-me-text">
+            As a front-end developer, I specialize in bringing intuitive UI
+            designs to life through interactive and responsive web applications.
+            I'm proficient in HTML, CSS, JavaScript, and React, focusing on
+            creating user-friendly digital experiences that align with the goals
+            of clients and businesses. I’m always excited about opportunities
+            that challenge my abilities and allow me to innovate and grow as a
+            developer.
+          </p>
+        </div>
+        <div class="about-me-img">
+          <img src="./spaceman.5ec7fcfa.png" alt="Robo" class="img" />
+        </div>
+      </section>
+
+      <section class="skill-section" id="Skills">
+        <h2>MERN STACK</h2>
+
+        <div class="top-skills">
+          <div class="top-skills-icons skill-grid">
+            <div class="mongodb-icon">
+              <div class="tooltip">mongoDB</div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="100"
+                height="100"
+                viewBox="0 0 24 24"
+                fill="#47A248"
+                stroke="none"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class=""
+              >
+                <path
+                  d="M17.18 9.518c-1.263-5.56-4.242-7.387-4.562-8.086C12.266.939 11.885 0 11.885 0c-.002.019-.004.031-.005.049v.013h-.001c-.002.015-.003.025-.004.039v.015h-.002c0 .01-.002.018-.002.026v.026h-.003c-.001.008-.001.018-.003.025v.021h-.002c0 .007 0 .015-.002.021v.02h-.002c0 .01-.001.022-.002.032v.002c-.003.017-.006.034-.009.05v.008h-.002c-.001.004-.003.008-.003.012v.017h-.003v.022h-.005v.018h-.005v.021h-.004v.019h-.004v.017h-.006v.014h-.004v.018h-.004v.014h-.005v.013H11.8v.015h-.004c-.001.001-.001.003-.001.004v.01h-.003c-.001.002-.001.004-.001.006v.006h-.002c-.001.003-.002.008-.002.01-.003.007-.007.014-.01.021v.002c-.002.002-.004.005-.005.007v.008h-.004v.008h-.005v.008h-.003v.01h-.006v.014h-.004v.004h-.004v.008h-.004v.011h-.004v.008h-.006v.011h-.004v.008h-.005v.008h-.003v.01h-.005v.008h-.004v.006h-.004v.008h-.006V.76h-.004v.006h-.005v.008h-.004v.011h-.005v.004h-.003v.008h-.006v.004h-.004v.01h-.004v.004h-.004v.008h-.005v.006h-.003l-.002.004v.004h-.002c-.001.002-.002.002-.002.004v.001h-.001c-.001.003-.002.005-.004.007v.003h-.001c-.005.006-.008.012-.012.018v.001c-.002.002-.007.006-.009.01v.002h-.001c-.001.001-.003.002-.003.003v.003h-.002l-.003.003v.001h-.001c0 .001-.002.002-.003.004v.004h-.003l-.002.002v.002h-.002c0 .002-.002.002-.002.003v.003h-.004c0 .001-.001.002-.002.003V.92h-.003v.004h-.004V.93h-.004v.008h-.005V.93h-.005v.004h-.004V.94h-.005v.008h-.005v.004h-.004v.006h-.004v.004h-.004V.97h-.006v.004h-.004V.98h-.005v.004h-.004v.005h-.005v.01h-.002v.004h-.006v.005h-.004v.002h-.004v.004h-.005v.01h-.004v.004h-.005v.004h-.004v.006h-.005v.004h-.005v.004h-.004v.004h-.004v.01h-.004v.005h-.006v.004h-.004v.004h-.005v.006h-.004v.004h-.005v.007h-.004v.004h-.006V1.1h-.002v.004h-.004v.004h-.005v.004h-.004v.006h-.005v.004h-.003c-.001.001-.001.002-.001.002v.002h-.002l-.004.004s-.002.002-.004.003v.006h-.004v.005h-.004v.004h-.004v.004h-.003l-.003.003v.003h-.002l-.002.002v.003h-.002c-.005.006-.007.01-.014.016-.002.002-.008.007-.012.01-.012.008-.027.021-.039.032-.008.005-.016.012-.022.017v.001h-.001c-.016.013-.031.025-.049.039v.001c-.024.02-.047.039-.074.062V1.34h-.002c-.057.047-.117.1-.186.159V1.5h-.001c-.169.148-.37.338-.595.568l-.015.015-.004.004C9 3.494 6.857 6.426 6.631 11.164c-.02.392-.016.773.006 1.144v.009c.109 1.867.695 3.461 1.428 4.756v.001c.292.516.607.985.926 1.405v.001c1.102 1.455 2.227 2.317 2.514 2.526.441 1.023.4 2.779.4 2.779l.644.215s-.131-1.701.053-2.522c.057-.257.192-.476.349-.662.106-.075.42-.301.797-.645.018-.019.028-.036.044-.054 1.521-1.418 4.362-4.91 3.388-10.599z"
+                ></path>
+              </svg>
+              <h2 style="color: #47a248">M</h2>
+            </div>
+
+            <div class="express-icon">
+              <div class="tooltip">Express.JS</div>
+              <svg
+                fill="#ffffff"
+                width="100px"
+                height="100px"
+                viewBox="0 0 24 24"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="#ffffff"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M24 18.588a1.529 1.529 0 0 1-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 0 1-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 0 1 1.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 0 1 1.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 0 0 0 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 0 0 2.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 0 1-2.589 3.957 6.272 6.272 0 0 1-7.306-.933 6.575 6.575 0 0 1-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 0 1 0 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"
+                  ></path>
+                </g>
+              </svg>
+              <h2>E</h2>
+            </div>
+
+            <div class="react-icon">
+              <div class="tooltip">React.JS</div>
+              <svg
+                width="100px"
+                height="100px"
+                viewBox="0 0 64 64"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xml:space="preserve"
+                xmlns:serif="http://www.serif.com/"
+                style="
+                  fill-rule: evenodd;
+                  clip-rule: evenodd;
+                  stroke-linejoin: round;
+                  stroke-miterlimit: 2;
+                "
+                fill="#000000"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <rect
+                    id="Icons"
+                    x="-1088"
+                    y="-64"
+                    width="1280"
+                    height="800"
+                    style="fill: none"
+                  ></rect>
+                  <g id="Icons1" serif:id="Icons">
+                    <g id="Strike"></g>
+                    <g id="H1"></g>
+                    <g id="H2"></g>
+                    <g id="H3"></g>
+                    <g id="list-ul"></g>
+                    <g id="hamburger-1"></g>
+                    <g id="hamburger-2"></g>
+                    <g id="list-ol"></g>
+                    <g id="list-task"></g>
+                    <g id="trash"></g>
+                    <g id="vertical-menu"></g>
+                    <g id="horizontal-menu"></g>
+                    <g id="sidebar-2"></g>
+                    <g id="Pen"></g>
+                    <g id="Pen1" serif:id="Pen"></g>
+                    <g id="clock"></g>
+                    <g id="external-link"></g>
+                    <g id="hr"></g>
+                    <g id="info"></g>
+                    <g id="warning"></g>
+                    <g id="plus-circle"></g>
+                    <g id="minus-circle"></g>
+                    <g id="vue"></g>
+                    <g id="cog"></g>
+                    <g id="logo"></g>
+                    <g id="radio-check"></g>
+                    <g id="eye-slash"></g>
+                    <g id="eye"></g>
+                    <g id="toggle-off"></g>
+                    <g id="shredder"></g>
+                    <g
+                      id="spinner--loading--dots-"
+                      serif:id="spinner [loading, dots]"
+                    ></g>
+                    <g id="react">
+                      <circle
+                        cx="32.001"
+                        cy="31.955"
+                        r="4.478"
+                        style="fill: #00d8ff"
+                      ></circle>
+                      <path
+                        d="M32.33,22.516c7.635,0.052 15.965,0.609 21.683,5.708c0.168,0.15 0.33,0.306 0.488,0.467c1.349,1.375 2.054,3.595 0.965,5.422c-2.234,3.751 -7.23,5.387 -12.067,6.394c-7.234,1.506 -14.798,1.518 -22.029,0.192c-4.161,-0.764 -8.416,-2.103 -11.373,-4.904c-1.151,-1.09 -2.135,-2.524 -1.981,-4.12c0.25,-2.582 2.727,-4.239 4.812,-5.361c5.791,-3.116 12.847,-3.813 19.502,-3.798Zm-0.554,1.173c-7.224,0.049 -15.043,0.51 -20.621,5.129c-0.195,0.161 -0.383,0.33 -0.564,0.507c-0.117,0.114 -0.23,0.233 -0.339,0.355c-0.979,1.1 -1.316,2.867 -0.392,4.188c0.93,1.329 2.342,2.288 3.796,3.07c5.438,2.924 11.864,3.443 18.129,3.465c6.343,0.023 12.884,-0.555 18.487,-3.452c2.232,-1.155 4.744,-2.851 4.655,-5.035c-0.082,-2.004 -2.036,-3.242 -3.499,-4.126c-0.396,-0.239 -0.803,-0.46 -1.216,-0.668c-5.562,-2.787 -12.08,-3.447 -18.436,-3.433Z"
+                        style="fill: #00d8ff"
+                      ></path>
+                      <path
+                        d="M42.115,10.703c2.793,0.071 4.24,3.429 4.431,5.909c0.038,0.493 0.052,0.988 0.046,1.483c-0.006,0.536 -0.035,1.072 -0.082,1.606c-0.589,6.612 -3.608,12.909 -7.163,18.724c-3.477,5.688 -7.717,11.36 -13.485,13.996c-1.907,0.872 -4.175,1.41 -5.863,0.437c-2.314,-1.333 -2.567,-4.451 -2.524,-6.816c0.011,-0.581 0.049,-1.162 0.109,-1.741c0.889,-8.56 5.228,-16.669 10.658,-23.655c3.168,-4.076 6.937,-8.119 11.632,-9.583c0.739,-0.231 1.326,-0.371 2.241,-0.36Zm-0.134,1.172c-3.279,0.052 -6.223,2.482 -8.83,5.007c-6.854,6.637 -11.905,15.464 -13.937,24.721c-0.157,0.717 -0.289,1.439 -0.386,2.166c-0.075,0.563 -0.13,1.129 -0.159,1.697c-0.023,0.452 -0.031,0.905 -0.017,1.358c0.01,0.354 0.033,0.708 0.072,1.06c0.029,0.269 0.068,0.537 0.117,0.803c0.037,0.197 0.08,0.393 0.13,0.588c0.041,0.158 0.087,0.315 0.139,0.471c0.409,1.233 1.463,2.411 2.878,2.45c3.301,0.09 6.409,-2.317 9.096,-4.933c4.717,-4.591 8.232,-10.36 10.978,-16.424c2.216,-4.896 4.243,-10.218 3.111,-15.607c-0.043,-0.204 -0.093,-0.406 -0.15,-0.606c-0.047,-0.163 -0.1,-0.324 -0.158,-0.483c-0.44,-1.199 -1.475,-2.271 -2.884,-2.268Z"
+                        style="fill: #00d8ff"
+                      ></path>
+                      <path
+                        d="M22.109,10.747c3.564,0.069 6.765,2.488 9.607,5.197c5.186,4.943 9.011,11.231 11.913,17.849c2.248,5.127 4.316,10.882 2.478,16.292c-0.579,1.705 -2.044,3.265 -3.997,3.305c-3.581,0.072 -6.9,-2.532 -9.78,-5.335c-7.225,-7.034 -12.589,-16.32 -14.427,-26.168c-0.132,-0.704 -0.237,-1.414 -0.309,-2.127c-0.059,-0.582 -0.096,-1.167 -0.106,-1.752c-0.008,-0.472 0.002,-0.944 0.035,-1.414c0.022,-0.314 0.054,-0.626 0.097,-0.937c0.041,-0.292 0.093,-0.583 0.158,-0.871c0.043,-0.191 0.091,-0.38 0.146,-0.568c0.539,-1.843 1.941,-3.485 4.185,-3.471Zm-0.135,1.173c-2.087,0.046 -3.042,2.507 -3.234,4.234c-0.039,0.354 -0.063,0.711 -0.074,1.068c-0.014,0.456 -0.008,0.913 0.015,1.369c0.328,6.599 3.278,12.979 6.838,18.821c3.352,5.5 7.4,10.978 12.968,13.794c1.608,0.813 3.562,1.452 4.951,0.684c1.742,-0.964 1.956,-3.261 2.049,-4.973c0.025,-0.466 0.028,-0.934 0.013,-1.401c-0.018,-0.586 -0.064,-1.171 -0.133,-1.753c-0.642,-5.437 -3.05,-10.582 -5.816,-15.444c-3.442,-6.048 -7.659,-12.076 -13.627,-15.225c-1.236,-0.652 -2.574,-1.185 -3.95,-1.174Z"
+                        style="fill: #00d8ff"
+                      ></path>
+                    </g>
+                    <g id="check-selected"></g>
+                    <g id="turn-off"></g>
+                    <g id="code-block"></g>
+                    <g id="user"></g>
+                    <g id="coffee-bean"></g>
+                    <g id="coffee-beans">
+                      <g id="coffee-bean1" serif:id="coffee-bean"></g>
+                    </g>
+                    <g id="coffee-bean-filled"></g>
+                    <g id="coffee-beans-filled">
+                      <g id="coffee-bean2" serif:id="coffee-bean"></g>
+                    </g>
+                    <g id="clipboard"></g>
+                    <g id="clipboard-paste"></g>
+                    <g id="clipboard-copy"></g>
+                    <g id="Layer1"></g>
+                  </g>
+                </g>
+              </svg>
+              <h2 style="color: #61dafb">R</h2>
+            </div>
+
+            <div class="node-icon">
+              <div class="tooltip">Node.JS</div>
+              <svg
+                width="100px"
+                height="100px"
+                viewBox="-13 0 282 282"
+                xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMinYMin meet"
+                fill="#000000"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g fill="#8CC84B">
+                    <path
+                      d="M116.504 3.58c6.962-3.985 16.03-4.003 22.986 0 34.995 19.774 70.001 39.517 104.99 59.303 6.581 3.707 10.983 11.031 10.916 18.614v118.968c.049 7.897-4.788 15.396-11.731 19.019-34.88 19.665-69.742 39.354-104.616 59.019-7.106 4.063-16.356 3.75-23.24-.646-10.457-6.062-20.932-12.094-31.39-18.15-2.137-1.274-4.546-2.288-6.055-4.36 1.334-1.798 3.719-2.022 5.657-2.807 4.365-1.388 8.374-3.616 12.384-5.778 1.014-.694 2.252-.428 3.224.193 8.942 5.127 17.805 10.403 26.777 15.481 1.914 1.105 3.852-.362 5.488-1.274 34.228-19.345 68.498-38.617 102.72-57.968 1.268-.61 1.969-1.956 1.866-3.345.024-39.245.006-78.497.012-117.742.145-1.576-.767-3.025-2.192-3.67-34.759-19.575-69.5-39.18-104.253-58.76a3.621 3.621 0 0 0-4.094-.006C91.2 39.257 56.465 58.88 21.712 78.454c-1.42.646-2.373 2.071-2.204 3.653.006 39.245 0 78.497 0 117.748a3.329 3.329 0 0 0 1.89 3.303c9.274 5.259 18.56 10.481 27.84 15.722 5.228 2.814 11.647 4.486 17.407 2.33 5.083-1.823 8.646-7.01 8.549-12.407.048-39.016-.024-78.038.036-117.048-.127-1.732 1.516-3.163 3.2-3 4.456-.03 8.918-.06 13.374.012 1.86-.042 3.14 1.823 2.91 3.568-.018 39.263.048 78.527-.03 117.79.012 10.464-4.287 21.85-13.966 26.97-11.924 6.177-26.662 4.867-38.442-1.056-10.198-5.09-19.93-11.097-29.947-16.55C5.368 215.886.555 208.357.604 200.466V81.497c-.073-7.74 4.504-15.197 11.29-18.85C46.768 42.966 81.636 23.27 116.504 3.58z"
+                    ></path>
+                    <path
+                      d="M146.928 85.99c15.21-.979 31.493-.58 45.18 6.913 10.597 5.742 16.472 17.793 16.659 29.566-.296 1.588-1.956 2.464-3.472 2.355-4.413-.006-8.827.06-13.24-.03-1.872.072-2.96-1.654-3.195-3.309-1.268-5.633-4.34-11.212-9.642-13.929-8.139-4.075-17.576-3.87-26.451-3.785-6.479.344-13.446.905-18.935 4.715-4.214 2.886-5.494 8.712-3.99 13.404 1.418 3.369 5.307 4.456 8.489 5.458 18.33 4.794 37.754 4.317 55.734 10.626 7.444 2.572 14.726 7.572 17.274 15.366 3.333 10.446 1.872 22.932-5.56 31.318-6.027 6.901-14.805 10.657-23.56 12.697-11.647 2.597-23.734 2.663-35.562 1.51-11.122-1.268-22.696-4.19-31.282-11.768-7.342-6.375-10.928-16.308-10.572-25.895.085-1.619 1.697-2.748 3.248-2.615 4.444-.036 8.888-.048 13.332.006 1.775-.127 3.091 1.407 3.182 3.08.82 5.367 2.837 11 7.517 14.182 9.032 5.827 20.365 5.428 30.707 5.591 8.568-.38 18.186-.495 25.178-6.158 3.689-3.23 4.782-8.634 3.785-13.283-1.08-3.925-5.186-5.754-8.712-6.95-18.095-5.724-37.736-3.647-55.656-10.12-7.275-2.571-14.31-7.432-17.105-14.906-3.9-10.578-2.113-23.662 6.098-31.765 8.006-8.06 19.563-11.164 30.551-12.275z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+              <h2 style="color: #8cc84b">N</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="Project">
+        <h1 class="project-title">Latest Projects</h1>
+        <div class="border"></div>
+
+        <div class="project-card">
+          <h2 class="project-card-title">Harigurus</h2>
+          <h3 class="project-card-subtitle">(Event Booking)</h3>
+          <img
+            src="https://anuragsinghbam.netlify.app/images/harigurus.webp"
+            alt="Project-card-img"
+            class="project-card-img"
+          />
+          <div class="project-btn-container">
+            <a href="#" class="project-btn">Github</a>
+            <a href="#" class="project-btn-right">Live Demo</a>
+          </div>
+          <p class="project-card-description">
+            HariGurus is a one-stop-shop for all Hindu religious, customs and
+            traditional requirements. Built the complete site from scratch.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h2 class="project-card-title">EazyGrad</h2>
+          <h3 class="project-card-subtitle">(EdTech Startup)</h3>
+          <img
+            src="https://anuragsinghbam.netlify.app/images/eazygrad.webp"
+            alt="Project-card-img"
+            class="project-card-img"
+          />
+          <div class="project-btn-container">
+            <a href="#" class="project-btn">Github</a>
+            <a href="#" class="project-btn-right">Live Demo</a>
+          </div>
+          <p class="project-card-description">
+            Being a lead developer, revamped the site to a highly responsive,
+            and interactive website. Created new features and pages. Worked as a
+            team with product manager and ux designer.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h2 class="project-card-title">Web Dev English</h2>
+          <h3 class="project-card-subtitle">(Coaching and Consulting)</h3>
+          <img
+            src="https://anuragsinghbam.netlify.app/images/web-dev-english.webp"
+            alt="Project-card-img"
+            class="project-card-img"
+          />
+          <div class="project-btn-container">
+            <a href="#" class="project-btn">Github</a>
+            <a href="#" class="project-btn-right">Live Demo</a>
+          </div>
+          <p class="project-card-description">
+            US-based English Coach's website for guiding techies. Improved
+            existing look and added new features and sections.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h2 class="project-card-title">Pioneer Digital</h2>
+          <h3 class="project-card-subtitle">(Digital Marketing Agency)</h3>
+          <img
+            src="https://anuragsinghbam.netlify.app/images/pioneer-digital.webp"
+            alt="Project-card-img"
+            class="project-card-img"
+          />
+          <div class="project-btn-container">
+            <a href="#" class="project-btn">Github</a>
+            <a href="#" class="project-btn-right">Live Demo</a>
+          </div>
+          <p class="project-card-description">
+            One of the featured site while working with TheBrandWick.com
+            (agency). Worked as a frontend developer to make the site
+            user-interactive and responsive.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h2 class="project-card-title">Money Arjan Solutions</h2>
+          <h3 class="project-card-subtitle">(Software Development Agency)</h3>
+          <img
+            src="https://anuragsinghbam.netlify.app/images/money-arjan.webp"
+            alt="Project-card-img"
+            class="project-card-img"
+          />
+          <div class="project-btn-container">
+            <a href="#" class="project-btn">Github</a>
+            <a href="#" class="project-btn-right">Live Demo</a>
+          </div>
+          <p class="project-card-description">
+            Designed and developed the site from scratch. Used a combo of themes
+            and Figma to get the best results. Integrated contact form in the
+            website using Netlify.
+          </p>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <h1 class="testimonial-title">TESTIMONIALS</h1>
+        <p class="testimonial-subtitle">What people says about ME!💓</p>
+
+        <div class="testimonial-wrapper">
+          <div class="testimonial-card-container">
+            <div class="testimonial-card">
+              <img src="./Yuvraj.jpg" alt="" class="testimonial-img" />
+
+              <div class="testimonial-card-content">
+                <h3 class="testimonial-card-title">Yuvraj Bhavsar</h3>
+                <p class="testimonial-card-description">
+                  “I can bet that it's too hard to find professional developers
+                  like Shubham. He could peek inside my mind and made the site
+                  exactly as I wanted. Much appreciated”
+                </p>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <img
+                src="https://media-bom1-1.cdn.whatsapp.net/v/t61.24694-24/428379006_1007170300954694_1696707330021613568_n.jpg?ccb=11-4&oh=01_Q5AaIFVIcXAPdBQDZNkKvddpZWT-AQd_cc8kJxYa3aXsGs3Q&oe=67469CEF&_nc_sid=5e03e0&_nc_cat=111"
+                alt=""
+                class="testimonial-img"
+              />
+
+              <div class="testimonial-card-content">
+                <h3 class="testimonial-card-title">Bhushan Keshbhat</h3>
+                <p class="testimonial-card-description">
+                  “I worked with Shubham to make my website. I am speechless by
+                  looking at his work ethic and dedication. Working with him was
+                  the best decision I made.”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="Contact">
+      <div class="footer-text">
+        <h2 class="footer-title">Send me a message !</h2>
+        <h4 class="footer-subtitle">
+          Got a question or proposal, or just want <br />
+          to say hello ? Go ahead.
+        </h4>
+      </div>
+
+      <div class="footer-container">
+        <div class="footer-form">
+          <div class="footer-name">
+            <input type="text" class="text" placeholder="Enter your name" />
+          </div>
+
+          <div class="footer-email">
+            <input
+              type="email"
+              class="email"
+              placeholder="Enter your email address"
+            />
+          </div>
+        </div>
+
+        <textarea
+          id=""
+          name=""
+          rows="5"
+          placeholder="Enter Your text"
+          class="textarea"
+        ></textarea>
+      </div>
+
+      <a href="#" class="footer-btn animated-button">SHOOT</a>
+    </footer>
+  </body>
+</html>
